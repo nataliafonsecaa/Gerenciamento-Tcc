@@ -1,0 +1,133 @@
+
+ *{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	list-style: none;
+	text-decoration: none;
+ }
+ body{
+	color:palevioletred;
+	background: rgb(255, 255, 255);
+ }
+
+ .navegacao{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 18px 40px;
+	width: 100%;
+	background: plum;
+	transition: all 0.5s;
+	position: fixed;
+ }
+ .navegacao .logo{
+	color:black;
+	font-size: 1.7rem;
+	font-weight: 600;
+ }
+ .navegacao ul{
+	display: flex;
+	align-items: center;
+	gap: 5rem;
+ }
+
+ .navegacao ul li a{
+	color:rgb(140, 76, 157);
+	font-size: 17px;
+	font-weight: 500;
+	transition: all 0.5s;
+ }
+ .navegacao ul li a:hover{
+	color: rgb(24, 230, 226);
+ }
+ .menu{
+	cursor: pointer;
+ }
+ .home{
+	width: 100%;
+	height: 63vh;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0px 10% ;
+ }
+ .home text{
+	max-width: 37rem;
+ }
+ .hometext .text-h1{
+	color:black;
+	font-size: 3rem;
+	margin-bottom: 1rem;
+	line-height: 4rem;
+ }
+
+ .hometext p{
+	margin-bottom: 4rem;
+	color:rgb(0, 0, 0);
+ }
+
+img{
+	width: 500px;
+	margin-top:  10px ;
+	padding: 10px;
+
+}
+ .container{
+	width: 100%;
+	background-color: rgb(246, 220, 220);
+	align-items:flex-end ;
+	justify-content: space-between;
+	padding: 0px 10% ;
+	display: block;
+	margin-top: 20px;
+ }
+
+ .container .row {
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+
+  }
+  .container .card {
+	border-radius: 5px;
+	box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+	padding: 30px;
+	margin: 20px;
+	width: 30;
+	transition: all 0.3s ease-out;
+  }
+  .container .card:hover {
+	transform: translateY(-5px);
+	cursor: pointer;
+  }
+   
+  .container  .card p {
+	color: #a3a5ae;
+	font-size: 16px;
+  }
+  .container  .blue {
+	border-left: 3px solid #73a0de;
+  }
+   
+  .container .green {
+	border-left: 3px solid hsl(313, 51%, 47%);
+  }
+   
+  .container .red {
+	border-left: 3px solid #d5313f;
+  }
+
+ footer{
+background-color: #3bb54a;
+position:absolute;
+bottom: 0;
+width: 100%;
+height: 2.5rem;
+color:aliceblue;
+text-align: center;
+font-size: 1em;
+padding: 10px;
+}
+
