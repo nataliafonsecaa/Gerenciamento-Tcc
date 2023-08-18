@@ -43,6 +43,7 @@ button {
     border: none;
     border-radius: 5px;
     background:  #5E66F2;
+    text-decoration: none;
 }
 
 body {
@@ -50,7 +51,6 @@ body {
     height: 100vh;
 	background-color: #ffffff;
     background-size: 100%;
-    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -60,9 +60,7 @@ body {
         width: 320px;
         height: 520px;
         border-radius: 10px;
-
         background: #ffffff;
-
         display: flex;
         align-items: center;
     }   
