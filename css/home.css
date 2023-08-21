@@ -12,20 +12,20 @@
 	background: rgb(255, 255, 255);
  }
 
- .navegacao{
+ .navegacao {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	padding: 18px 40px;
+	padding: 17px 35px;
 	width: 100%;
-	background: plum;
+	background: rgb(255, 255, 255);
 	transition: all 0.5s;
 	position: fixed;
+
  }
- .navegacao .logo{
-	color:black;
-	font-size: 1.7rem;
-	font-weight: 600;
+ .navegacao .logo img{
+	width: 80px;
+
  }
  .navegacao ul{
 	display: flex;
@@ -42,16 +42,29 @@
  .navegacao ul li a:hover{
 	color: rgb(24, 230, 226);
  }
+
+ .navegacao .nav-btn{
+	border: 2px solid palevioletred;
+	padding: 10px;
+	border-radius: 15px;
+}
+.nav-btn:hover{
+	background-color: rgb(224, 113, 222);
+	transition: all 0.5s;
+
+}
  .menu{
 	cursor: pointer;
  }
  .home{
 	width: 100%;
-	height: 63vh;
+	height: 70vh;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 	padding: 0px 10% ;
+	flex-direction: row;
+	
  }
  .home text{
 	max-width: 37rem;
@@ -71,17 +84,23 @@
 img{
 	width: 500px;
 	margin-top:  10px ;
-	padding: 10px;
+
 
 }
  .container{
 	width: 100%;
-	background-color: rgb(246, 220, 220);
+	background-color: rgb(255, 255, 255);
 	align-items:flex-end ;
 	justify-content: space-between;
 	padding: 0px 10% ;
 	display: block;
-	margin-top: 20px;
+	margin-top: 50px;
+ }
+ .container p {
+	font-size: 25px;
+	color:black;
+	margin: 20px;
+
  }
 
  .container .row {
@@ -108,20 +127,20 @@ img{
 	font-size: 16px;
   }
   .container  .blue {
-	border-left: 3px solid #73a0de;
+	border-left: 10px solid #00A19D;
   }
    
   .container .green {
-	border-left: 3px solid hsl(313, 51%, 47%);
+	border-left: 10px solid #FFB344;
   }
    
   .container .red {
-	border-left: 3px solid #d5313f;
+	border-left: 10px solid #E05D5D;
   }
 
  footer{
-background-color: #3bb54a;
-position:absolute;
+background-color: #E86A33;
+/*position:absolute;*/
 bottom: 0;
 width: 100%;
 height: 2.5rem;
