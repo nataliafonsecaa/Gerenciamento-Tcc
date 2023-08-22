@@ -19,6 +19,7 @@ body{
 	height: 100%;
 	background-color: rgba(114, 232, 193, 0.547);
 	clip-path: circle(66.3% at 100% 34%);
+	z-index: -1;
 }
 
 header {
